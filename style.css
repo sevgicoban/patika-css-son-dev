@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+/* header */
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  align-items: center;
+}
+.header a{ 
+  margin-right: 20px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  text-decoration: inherit;
+}
+.header a:hover{
+  text-decoration: underline;
+}
+.header__right{
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between;
+
+}
+.pro{
+  border-radius: 50%;
+  width: 40px;
+}
+
+
+
+
+
+.header__right .header__apps{
+ margin-right: 10px;
+}
+.mainBody{
+  flex: 1;
+  display: flex;
+  margin-top: 12%;
+  flex-direction: column;
+}
+.mainBody img{
+  object-fit: contain;
+  height: 100px;
+}
+.search__input{
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgrey;
+  height: 30px;
+  padding: 10px 20px;
+  border-radius: 999px;
+  width: 75vw;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 560px;
+  box-shadow: 1px 1px 1px gray;
+}
+.search__input input{
+  width: 480px;
+  flex: 1;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+}
+.search__input .material-symbols{
+  color: gray;
+
+}
+.search__buttons{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+ 
+}
+.search__buttons button:hover{
+  color: grey;
+}
+.search__buttons button{
+  margin: 5px;
+  padding: 10px 15px;
+  background-color:#f2f2f2;
+  color: #5f6368;
+  height: 36px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  box-shadow: 2px 2px 1px;
+  border-radius: 2px;
+}
+  .folter__link{
+   display: flex;
+   justify-content: space-between;
+   background-color: #f2f2f2;
+   height: 50px;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+
+  }
+  .footer li {
+  margin-right: 10px;
+  list-style: none;
+  margin-top: 10px;
+  
+  }
+  .footer li a{
+    text-decoration: none;
+    color:#5f6368 ;
+  }
+  .footer li a:hover{
+    text-decoration: underline;
+  }
